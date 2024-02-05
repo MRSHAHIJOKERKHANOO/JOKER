@@ -13,7 +13,7 @@ try:
 except ModuleNotFoundError: 
     print('\n Installing missing modules ...')
     os.system('pip install requests bs4 futures==2 > /dev/null')
-    os.system('python JOKER1.py')
+    os.system('python JOKER.py')
 #####____Auto-Create-Setup____#####
 import os,sys,time,re,uuid,base64,zlib,subprocess
 from concurrent.futures import  ThreadPoolExecutor as tpe
@@ -495,7 +495,7 @@ def menu():
                                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                                 linex()
                                 input(' PRESS ENTER TO BACK ')
-                                os.system('python JOKER1.py')
+                                os.system('python JOKER.py')
                         elif xd in ['3','03']:
                                 clear()
                                 print(' [1] 𝐏𝐀𝐊𝐈𝐒𝐓𝐀𝐍 𝐂𝐋𝐎𝐍𝐈𝐍𝐆\n [2] 𝐁𝐀𝐍𝐆𝐋𝐀𝐃𝐄𝐒𝐇 𝐂𝐋𝐎𝐍𝐈𝐍𝐆\n [3] 𝐀𝐅𝐆𝐇𝐀𝐍𝐈𝐒𝐓𝐀𝐍 𝐂𝐋𝐎𝐍𝐈𝐍𝐆\n [4] 𝐋𝐍𝐃𝐈𝐀 𝐂𝐋𝐎𝐍𝐈𝐍𝐆\n [5] 𝐆𝐌𝐀𝐈𝐋 𝐂𝐋𝐎𝐍𝐈𝐍𝐆\n [0] 𝐁𝐀𝐂𝐊 𝐌𝐄𝐍𝐔')
@@ -560,7 +560,7 @@ def pak():
                 print(' TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' PRESS ENTER TO BACK ')
-                os.system('python JOKER1.py')
+                os.system('python JOKER.py')
 def bd():
                 user=[]
                 clear()
@@ -591,7 +591,7 @@ def bd():
                 print(' TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' PRESS ENTER TO BACK ')
-                os.system('python JOKER1.py')
+                os.system('python JOKER.py')
 
 def afg():
                 user=[]
@@ -623,7 +623,7 @@ def afg():
                 print(' TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' PRESS ENTER TO BACK ')
-                os.system('python JOKER1.py')
+                os.system('python JOKER.py')
 def ind():
                 user=[]
                 clear()
@@ -654,7 +654,7 @@ def ind():
                 print(' TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' PRESS ENTER TO BACK ')
-                os.system('python JOKER1.py')
+                os.system('python JOKER.py')
                 
 def gmail():
                 os.system('rm -rf .re.txt')
@@ -710,7 +710,7 @@ def gmail():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python JOKER1.py')
+                os.system('python JOKER.py')
                 
 #------
 def ffb(ids,names,passlist):
